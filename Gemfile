@@ -27,3 +27,10 @@ group :development do
   gem 'better_errors'
   gem 'mailcatcher'
 end
+
+# http://www.codewars.com/kata/5202ef17a402dd033c000009/train/ruby
+# def title_case(title, minor_words)
+#   title = title.split(' ')
+#   minor_words = minor_words.split(' ')
+#   title.map{|t| minor_words.detect{|m| m.downcase == t.downcase} ? t : t.capitalize }.compact.join(' ')
+# end
